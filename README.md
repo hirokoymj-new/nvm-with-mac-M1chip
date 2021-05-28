@@ -39,21 +39,13 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
 nvm install node
 ```
 
-### [IMPORTANT!!]4. Install any node version that you need. 
+### 4. [IMPORTANT!!] Check architecture of the node binary:
 
 ```js
-# Check what version you're running:
-$ node --version
-v14.15.4
 # Check architecture of the `node` binary:
 $ node -p process.arch
 arm64
 # This confirms that the arch is for the M1 chip, which is causing the problems.
-# So we need to uninstall it.
-# We can't uninstall the version we are currently using, so switch to another version:
-$ nvm install v12.20.1
-# Now uninstall the version we want to replace:
-$ nvm uninstall v14.15.4
 # Launch a new zsh process under the 64-bit X86 architecture:
 $ arch -x86_64 zsh
 # Install node using nvm. This should download the precompiled x64 binary:
