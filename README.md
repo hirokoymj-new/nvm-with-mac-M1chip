@@ -16,7 +16,7 @@ cd /usr/local/include && ls -la
 sudo rm -rf node*
 ```
 
-3. Go your home directory. `cd ~`. Check for any "local" or "lib" or "include" folders, and delete any "node" or "node_modules" from there.
+3. Go your home directory. `cd ~`. Check for any "local" or "lib" or "include" folders, and delete any **node** or **node_modules** from there.
 
 4. Go to `/usr/local/bin` and delete any **node** executable
 
