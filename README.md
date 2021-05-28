@@ -27,7 +27,7 @@ sudo rm -rf node*
 
 ### 2. Use following url and run on terminal.
 
-- you are using the zsh shell
+- you are using the **zsh** shell
 
 ```js
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | zsh
