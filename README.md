@@ -1,4 +1,4 @@
-# Installation nvm on macOS Big Sur with M1chip
+# Troubleshooting to install nvm on macOS with M1chip
 
 ### 1. Delete all node in your mac completely.
 
