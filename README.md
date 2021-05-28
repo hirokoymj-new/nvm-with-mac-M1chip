@@ -1,6 +1,6 @@
 # Troubleshooting to install nvm on macOS with M1chip
 
-### 1. Delete all node in your mac completely.
+### 1. Completely delete Node.js in your mac
 
 1. Go to `/usr/local/lib` and delete any **node** and **node_modules**.
 
