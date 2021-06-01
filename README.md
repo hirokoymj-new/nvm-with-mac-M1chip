@@ -74,9 +74,6 @@ nvm current
 **nvm ls**
 
 ```js
-**nvm current**
-
-```js
 ->     v12.19.1
         v16.2.0
 default -> 12.19.1 (-> v12.19.1)
@@ -93,6 +90,11 @@ lts/erbium -> v12.22.1 (-> N/A)
 lts/fermium -> v14.17.0 (-> N/A)
 ```
 
-
+**nvm alias default 12**
+- Changed default node from 16 to 12 (a lower version) 
+- 
+```js
+nvm alias default 12
+```
 
 
