@@ -62,3 +62,37 @@ arm64
 $ nvm use v14.15.4
 Now using node v14.15.4 (npm v6.14.10)
 ```
+# nvm command
+
+**nvm current**
+
+```js
+nvm current
+//v12.19.1
+```
+
+**nvm ls**
+
+```js
+**nvm current**
+
+```js
+->     v12.19.1
+        v16.2.0
+default -> 12.19.1 (-> v12.19.1)
+iojs -> N/A (default)
+unstable -> N/A (default)
+node -> stable (-> v16.2.0) (default)
+stable -> 16.2 (-> v16.2.0) (default)
+lts/* -> lts/fermium (-> N/A)
+lts/argon -> v4.9.1 (-> N/A)
+lts/boron -> v6.17.1 (-> N/A)
+lts/carbon -> v8.17.0 (-> N/A)
+lts/dubnium -> v10.24.1 (-> N/A)
+lts/erbium -> v12.22.1 (-> N/A)
+lts/fermium -> v14.17.0 (-> N/A)
+```
+
+
+
+
