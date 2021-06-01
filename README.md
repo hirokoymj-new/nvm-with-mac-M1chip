@@ -62,7 +62,7 @@ arm64
 $ nvm use v14.15.4
 Now using node v14.15.4 (npm v6.14.10)
 ```
-# nvm command
+# nvm commands
 
 **nvm current**
 
