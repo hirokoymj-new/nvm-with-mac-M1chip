@@ -91,4 +91,8 @@ stable -> 16.2 (-> v16.2.0) (default)
 nvm alias default 12
 ```
 
+### References:
+
+[Node Version Manager](https://github.com/nvm-sh/nvm)
+
 
