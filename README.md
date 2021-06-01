@@ -81,18 +81,12 @@ iojs -> N/A (default)
 unstable -> N/A (default)
 node -> stable (-> v16.2.0) (default)
 stable -> 16.2 (-> v16.2.0) (default)
-lts/* -> lts/fermium (-> N/A)
-lts/argon -> v4.9.1 (-> N/A)
-lts/boron -> v6.17.1 (-> N/A)
-lts/carbon -> v8.17.0 (-> N/A)
-lts/dubnium -> v10.24.1 (-> N/A)
-lts/erbium -> v12.22.1 (-> N/A)
-lts/fermium -> v14.17.0 (-> N/A)
+...
 ```
 
 **nvm alias default 12**
 - Changed default node from 16 to 12 (a lower version) 
-- 
+
 ```js
 nvm alias default 12
 ```
